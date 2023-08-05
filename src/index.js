@@ -13,7 +13,7 @@ root.render(
       <WeatherSrc />
 
       <small>
-        <a src="https://github.com/vanessavgil/vstar-weather-app-react">
+        <a href="https://github.com/vanessavgil/vstar-weather-app-react">
           open source code
         </a>
         by vanessa gil

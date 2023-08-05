@@ -1,6 +1,6 @@
 import axios from "axios";
 import WeatherSrc from "./WeatherSrc";
-import { Link } from "react-router-dom";
+
 import './App.css';
 
 function App() {
@@ -11,12 +11,12 @@ function App() {
         <WeatherSrc />
       </header>
       <br />
-  
-        <link to="https://github.com/vanessavgil/vstar-weather-app-react">
-          open source code 
-        </link>
+      <div>
+        <a href="https://github.com/vanessavgil/vstar-weather-app-react">
+          open source code
+        </a>
         by vanessa gil
-    
+      </div>
     </div>
   );
 }
