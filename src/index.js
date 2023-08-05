@@ -11,8 +11,14 @@ root.render(
     <div className="App">
       <h1>Weather App</h1>
       <WeatherSrc />
+
+      <small>
+        <a src="https://github.com/vanessavgil/vstar-weather-app-react">
+          open source code
+        </a>
+        by vanessa gil
+      </small>
     </div>
-   
   </React.StrictMode>
 );
 
