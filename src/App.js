@@ -1,6 +1,6 @@
 import axios from "axios";
 import WeatherSrc from "./WeatherSrc";
-
+import React from "react";
 import './App.css';
 
 function App() {
