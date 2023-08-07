@@ -1,24 +1,22 @@
 import axios from "axios";
 import WeatherSrc from "./WeatherSrc";
-import React from "react";
-import './App.css';
+import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import Navigation from "./Navigation";
+import Main from "./Main";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Vanessa's Weather App</h1>
-        <WeatherSrc />
-      </header>
-      <br />
+
+export default class App extends Component {
+  render() {
+    return (
       <div>
-        <a href="https://github.com/vanessavgil/vstar-weather-app-react">
-          open source code
-        </a>
-        by vanessa gil
+        <Navigation />
+        <Main />
       </div>
-    </div>
-  );
+    );
+  }
 }
 
-export default App;
+
+
+
